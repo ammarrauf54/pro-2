@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Perfume Royal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Perfume Royal</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Perfumes</a>
+        <a href="#contact">Contact</a>
+        <a href="#">🛒 Cart</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Luxury in Every Drop</h2>
+      <p>Discover our signature collection of handcrafted perfumes</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Our Perfumes</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x250" alt="Royal Bloom">
+          <h3>Royal Bloom</h3>
+          <p>$89.00</p>
+          <button onclick="addToCart('Royal Bloom')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x250" alt="Mystic Oud">
+          <h3>Mystic Oud</h3>
+          <p>$120.00</p>
+          <button onclick="addToCart('Mystic Oud')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x250" alt="Velvet Night">
+          <h3>Velvet Night</h3>
+          <p>$99.00</p>
+          <button onclick="addToCart('Velvet Night')">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Email: contact@perfumeroyal.com</p>
+      <p>Phone: +1 (800) 123-4567</p>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Perfume Royal. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
